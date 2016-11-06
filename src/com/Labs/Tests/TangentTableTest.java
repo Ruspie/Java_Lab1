@@ -1,13 +1,11 @@
 package com.Labs.Tests;
 
-import com.Labs.TangentTable.TangentTable;
+import com.Labs.TangentTable_Task_3.TangentTable;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by asus on 07.11.2016.

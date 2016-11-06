@@ -1,9 +1,7 @@
-package com.Labs.TangentTable;
+package com.Labs.TangentTable_Task_3;
 
-import java.util.Dictionary;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
 /**
  * Created by asus on 06.11.2016.
