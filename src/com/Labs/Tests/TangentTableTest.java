@@ -1,6 +1,6 @@
 package com.Labs.Tests;
 
-import com.Labs.TangentTable_Task_3.TangentTable;
+import com.Labs.Tasks.TangentTable_Task_3.TangentTable;
 import org.junit.Assert;
 import org.junit.Test;
 

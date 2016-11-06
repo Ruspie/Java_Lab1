@@ -1,12 +1,10 @@
 package com.Labs.Tests;
 
-import com.Labs.Area_Task_2.Area;
-import com.Labs.Area_Task_2.Point;
-import com.Labs.Area_Task_2.ShadedArea;
+import com.Labs.Tasks.Area_Task_2.Area;
+import com.Labs.Tasks.Area_Task_2.Point;
+import com.Labs.Tasks.Area_Task_2.ShadedArea;
 import org.junit.Assert;
 import org.junit.Test;
-
-import java.util.ArrayList;
 
 /**
  * Created by asus on 06.11.2016.

@@ -1,14 +1,11 @@
 package com.Labs.Tests;
 
-import com.Labs.ArrayOfPrime_Task_4.ArrayNumbers;
+import com.Labs.Tasks.ArrayOfPrime_Task_4.ArrayNumbers;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by asus on 07.11.2016.

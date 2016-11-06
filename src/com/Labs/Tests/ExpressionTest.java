@@ -1,7 +1,7 @@
 package com.Labs.Tests;
 
 
-import com.Labs.Expression_Task_1.Expression;
+import com.Labs.Tasks.Expression_Task_1.Expression;
 import org.junit.Assert;
 import org.junit.Test;
 

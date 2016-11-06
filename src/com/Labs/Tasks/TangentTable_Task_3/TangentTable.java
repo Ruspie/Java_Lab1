@@ -1,4 +1,4 @@
-package com.Labs.TangentTable_Task_3;
+package com.Labs.Tasks.TangentTable_Task_3;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,8 +1,7 @@
-package com.Labs.ArrayOfPrime_Task_4;
+package com.Labs.Tasks.ArrayOfPrime_Task_4;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 /**
  * Created by asus on 07.11.2016.

@@ -1,4 +1,4 @@
-package com.Labs.Area_Task_2;
+package com.Labs.Tasks.Area_Task_2;
 
 import java.util.ArrayList;
 
