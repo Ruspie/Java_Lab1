@@ -18,6 +18,6 @@ public class ArrayNumbersTest {
 
         List<Integer> testIndex = Arrays.asList(2, 3, 4, 5, 6, 9);
 
-        Assert.assertEquals(actualIndex, testIndex);
+        Assert.assertEquals(testIndex, actualIndex);
     }
 }

@@ -22,7 +22,7 @@ public class TangentTableTest {
         testTable.put(2.0, -2.1850398632615189916433061023137);
         testTable.put(3.0, -0.14254654307427780529563541053391);
 
-        Assert.assertEquals(actualTable, testTable);
+        Assert.assertEquals(testTable, actualTable);
     }
 
 }

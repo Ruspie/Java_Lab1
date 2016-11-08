@@ -25,7 +25,7 @@ public class MatrixTest {
         Matrix matrix = new Matrix(number);
         double[][] actualMatrix = matrix.getMatrix();
 
-        Assert.assertArrayEquals(actualMatrix, testMatrix);
+        Assert.assertArrayEquals(testMatrix, actualMatrix);
     }
 
 }

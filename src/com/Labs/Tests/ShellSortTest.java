@@ -18,7 +18,7 @@ public class ShellSortTest {
 
         List<Double> actualList = ShellSort.Sort(numbers);
 
-        Assert.assertEquals(actualList, testList);
+        Assert.assertEquals(testList, actualList);
 
     }
 }
