@@ -1,6 +1,7 @@
 package com.Labs.Tasks.BasketBalls_Task_9;
 
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -9,8 +10,20 @@ import java.util.List;
 public class Basket {
     private List<Ball> balls;
 
+    public Basket(){
+        balls = new ArrayList<>();
+    }
+
     public Basket(List<Ball> balls) {
         this.balls = balls;
+    }
+
+    public void addBall(Ball ball){
+        balls.add(ball);
+    }
+
+    public void addBalls(List<Ball> ballsToAdd){
+        balls.addAll(ballsToAdd);
     }
 
     public List<Ball> getBalls() {
