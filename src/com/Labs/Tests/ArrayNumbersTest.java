@@ -14,7 +14,7 @@ public class ArrayNumbersTest {
     @Test
     public void getArrayPrimeNumbers() throws Exception {
         ArrayNumbers arrayNumbers = new ArrayNumbers(Arrays.asList(15, 26, 13, 2, 3, 5, 2, 4, 8, 2));
-        List<Integer> actualIndex = arrayNumbers.getArrayPrimeNumbers();
+        List<Integer> actualIndex = arrayNumbers.getArrayIndexPrimeNumbers();
 
         List<Integer> testIndex = Arrays.asList(2, 3, 4, 5, 6, 9);
 

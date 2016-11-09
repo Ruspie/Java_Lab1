@@ -14,7 +14,7 @@ public class ArrayNumbers {
         this.numbers = numbers;
     }
 
-    public List<Integer> getArrayPrimeNumbers(){
+    public List<Integer> getArrayIndexPrimeNumbers(){
         List<Integer> listIndexPrimeNumber = new ArrayList<>();
         int index = 0;
         for(int number: numbers){

@@ -2,6 +2,7 @@ package com.Labs.Tasks.TangentTable_Task_3;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 /**
  * Created by asus on 06.11.2016.
@@ -11,7 +12,7 @@ public class TangentTable {
     private Map<Double, Double> tangentTable;
 
     public TangentTable(double leftBorder, double rightBorder, double step){
-        tangentTable = new HashMap<>();
+        tangentTable = new TreeMap<>();
         fillingTangentTable(leftBorder, rightBorder, step);
     }
 

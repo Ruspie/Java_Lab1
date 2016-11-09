@@ -10,17 +10,17 @@ public class OrderList {
     private List<Integer> list;
 
     public OrderList(List<Integer> list){
-        list = new ArrayList<>();
-        list.addAll(list);
+        this.list = new ArrayList<>();
+        this.list.addAll(list);
     }
 
     public int getNumberUnnecessaryElements(){
-        List<Integer> lengthPossibleSequence = getInitilizedList(list.size());
+        List<Integer> lengthPossibleSequence = getInitializedList(list.size());
         int maxSequenceLength = getMax(getCountOptimizedSequence(lengthPossibleSequence));
         return list.size() - maxSequenceLength;
     }
 
-    private List<Integer> getInitilizedList(int length){
+    private List<Integer> getInitializedList(int length){
         List<Integer> list = new ArrayList<>();
         for(int i = 0; i < length; i++){
             list.add(1);
